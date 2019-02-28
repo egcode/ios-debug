@@ -55,7 +55,9 @@ When Symbolic breakpoint hits, we can use example arguments:
 
 <img src="images/8.png" width="500">
 
-
+We even can create global variables with breakpoints
+<img src="images/9.png" width="500">
+<img src="images/10.png" width="500">
 
 
 
