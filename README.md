@@ -40,7 +40,7 @@ When Symbolic breakpoint hits, we can use example arguments:
 <img src="images/4.png" width="500">
 
 
-### `p` - evaluate expressions and methods
+### `p` - evaluate expressions and methods (`p` is the alias for expression, if you need to pass arguments `expr` command is used)
 <br><br>
 <img src="images/5.png" width="500">
 <img src="images/6.png" width="500">
