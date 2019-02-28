@@ -5,12 +5,11 @@
 # Symbolic breakpoint
 -[UIViewController dealloc]
 <br><br>
-'po $arg1'
+`po $arg1`
 <br><br>
 
 
 ### USAGE: 
-<br><br>
 <img src="images/0.Args.png" width="500">
 
 
