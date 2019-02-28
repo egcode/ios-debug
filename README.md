@@ -8,6 +8,7 @@
 ### Symbolic breakpoint - all dealloc methods
 
 `-[UIViewController dealloc]`
+<br><br>
 `po $arg1`
 #### USAGE: 
 <img src="images/1.Symbolic_ViewAllDeallocate.png" width="500">
@@ -15,7 +16,7 @@
 
 
 
-
+### When Symbolic breakpoint hits, we can use example arguments:
 ### Symbolic fetch Objective C
 `po (BOOL)[$arg1 isKindOfClass:[UIViewController class]].` 
 ### Symbolic fetch Swift
