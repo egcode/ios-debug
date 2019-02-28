@@ -29,34 +29,33 @@ When Symbolic breakpoint hits, we can use example arguments:
 
 
 
+
 ## *2.LLDB*
 
 <img src="images/3.png" width="500">
 
-`po` - evaluate expressions
+
+### `po` - evaluate expressions
 <br><br>
 <img src="images/4.png" width="500">
 
 
-`p` - evaluate expressions and methods
+### `p` - evaluate expressions and methods
 <br><br>
 <img src="images/5.png" width="500">
 <img src="images/6.png" width="500">
 
-`fr v` - don't do expressions, only inspecting data, and it's safe but more limited
+### `fr v` - don't do expressions, only inspecting data, and it's safe but more limited
 <br><br>
 <img src="images/7.png" width="300">
 
 
 
-### Creating Global Session Variables: 
+## *Creating Global Session Variables:* 
 
-<img src="images/8.png" width="300">
-
-
+<img src="images/8.png" width="500">
 
 
 
-## **Requirements for installation**
-- Xcode
-<br><br>
+
+
