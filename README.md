@@ -87,6 +87,10 @@ or `expression -i false -- someMethodWithBreakpoint()`
 <br><br>
 
 
+## *If we stuck in Objective-C context we can go to Swift context inside LLDB* 
+
+<img src="images/18.png" width="900">
+<br><br>
 
 
 
