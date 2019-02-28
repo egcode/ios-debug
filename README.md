@@ -57,9 +57,14 @@ When Symbolic breakpoint hits, we can use example arguments:
 <br><br>
 
 - We even can create global variables with breakpoints: 
-in example we create `var $row` in viewDidLoad and stop when `$row == 2`
+in example:
+- we create `var $row` in viewDidLoad 
+- change this war in tableViewDidSelect `p $row == indexPath.row` 
+- and stop when `$row == 2`
+
 <img src="images/9.png" width="500">
 <img src="images/10.png" width="500">
+<img src="images/11.png" width="500">
 
 
 
