@@ -22,10 +22,19 @@ When Symbolic breakpoint hits, we can use example arguments:
 - Symbolic fetch Swift
 `po (BOOL)[$arg1 isKindOfClass:(id)NSClassFromString(@"ModuleOrAppName.SomeViewController")]`
 
-- Symbolic breakpoint CONTITION: `(BOOL)[$arg1 isKindOfClass:(id)NSClassFromString(@"ModuleOrAppName.SomeViewController")]`
+- Symbolic breakpoint CONTITION for Swift: `(BOOL)[$arg1 isKindOfClass:(id)NSClassFromString(@"ModuleOrAppName.SomeViewController")]`
 #### EXAMPLE: 
 <img src="images/0.Args.png" width="500">
 <img src="images/2.png" width="500">
+
+
+
+## 2.LLDB
+
+<img src="images/3.png" width="500">
+
+
+
 
 
 
