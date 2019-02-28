@@ -45,7 +45,7 @@ When Symbolic breakpoint hits, we can use example arguments:
 
 `fr v` - don't do expressions, only shows data, and it's safe
 <br><br>
-<img src="images/7.png" width="500">
+<img src="images/7.png" width="300">
 
 
 
