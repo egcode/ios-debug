@@ -104,7 +104,6 @@ To include breakpoints inside lldb we hit command:
 `expr -i false -- someMethodWithBreakpoint()` 
 or `expression -i false -- someMethodWithBreakpoint()`
 
-<br><br>
 
 <img src="images/17.png" width="900">
 <br><br>
