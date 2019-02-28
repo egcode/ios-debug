@@ -2,36 +2,14 @@
 
 
 
-## *1.Symbolic breakpoints*
+## *1.LLDB*
 
-
-### Symbolic breakpoint - Hit breakpoint on any UIViewController deallocation
-
-`-[UIViewController dealloc]`
-<br><br>
-`po $arg1`
-#### EXAMPLE: 
-<img src="images/1.Symbolic_ViewAllDeallocate.png" width="500">
+## *LLDB Step commands* 
+<img src="images/13.png" width="500">
 <br><br>
 
 
-
-When Symbolic breakpoint hits, we can use example arguments:
-- Symbolic fetch Objective C
-`po (BOOL)[$arg1 isKindOfClass:[UIViewController class]].` 
-- Symbolic fetch Swift
-`po (BOOL)[$arg1 isKindOfClass:(id)NSClassFromString(@"ModuleOrAppName.SomeViewController")]`
-
-- Symbolic breakpoint CONTITION for Swift: `(BOOL)[$arg1 isKindOfClass:(id)NSClassFromString(@"ModuleOrAppName.SomeViewController")]`
-#### EXAMPLE: 
-<img src="images/0.Args.png" width="500">
-<img src="images/2.png" width="500">
-
-
-
-
-## *2.LLDB*
-
+## *LLDB evaluation commands* 
 <img src="images/3.png" width="500">
 
 
@@ -73,10 +51,6 @@ in example:
 <img src="images/12.png" width="500">
 <br><br>
 
-## *LLDB Step commands* 
-<img src="images/13.png" width="500">
-<br><br>
-
 
 ## *LLDB View Return Values* 
 
@@ -107,3 +81,34 @@ or `expression -i false -- someMethodWithBreakpoint()`
 
 <img src="images/17.png" width="900">
 <br><br>
+
+
+
+
+
+
+
+## *2.Symbolic breakpoints*
+
+
+### Symbolic breakpoint - Hit breakpoint on any UIViewController deallocation
+
+`-[UIViewController dealloc]`
+<br><br>
+`po $arg1`
+#### EXAMPLE: 
+<img src="images/1.Symbolic_ViewAllDeallocate.png" width="500">
+<br><br>
+
+
+
+When Symbolic breakpoint hits, we can use example arguments:
+- Symbolic fetch Objective C
+`po (BOOL)[$arg1 isKindOfClass:[UIViewController class]].` 
+- Symbolic fetch Swift
+`po (BOOL)[$arg1 isKindOfClass:(id)NSClassFromString(@"ModuleOrAppName.SomeViewController")]`
+
+- Symbolic breakpoint CONTITION for Swift: `(BOOL)[$arg1 isKindOfClass:(id)NSClassFromString(@"ModuleOrAppName.SomeViewController")]`
+#### EXAMPLE: 
+<img src="images/0.Args.png" width="500">
+<img src="images/2.png" width="500">
