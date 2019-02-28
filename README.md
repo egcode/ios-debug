@@ -25,6 +25,7 @@ When Symbolic breakpoint hits, we can use example arguments:
 To symbolic breakpoint CONTITION: (BOOL)[$arg1 isKindOfClass:(id)NSClassFromString(@"ModuleOrAppName.SomeViewController")]
 #### EXAMPLE: 
 <img src="images/0.Args.png" width="500">
+<img src="images/2.png" width="500">
 
 
 
