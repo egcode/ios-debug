@@ -93,6 +93,6 @@ When we have breakpoint in return value like this:
 - then we can extract what is stored in that location if we know the type by `po unsafeBitCast(0x0000600001acf1e0, to: UIImage.self)`
 - and we can creat expression and view the image extracted from memory
 
-<img src="images/15.png" width="500">
+<img src="images/15.png" width="900">
 <br><br>
 
