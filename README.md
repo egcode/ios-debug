@@ -52,8 +52,12 @@ in example:
 <br><br>
 
 
-## *LLDB View Return Values* 
+## *Extract object from memory with type with LLDB* 
+store object in global variable  `p let $image = unsafeBitCast(0x0000600001acf1e0, to: UIImage.self)`
+<br><br>
 
+
+## *LLDB View Return Values* 
 
 When we have breakpoint in return value like this:
 <br><br>
