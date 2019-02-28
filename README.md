@@ -99,7 +99,9 @@ When we have breakpoint in return value like this:
 
 ## *Calling methods with breakpoints inside LLDB* 
 
-If we run method with breakpoint from lldb, breakpoint will be ignored. To include breakpoints inside lldb we hit command `expr -i false -- someMethodWithBreakpoint()`
+If we run method with breakpoint from lldb, breakpoint will be ignored. 
+To include breakpoints inside lldb we hit command `expr -i false -- someMethodWithBreakpoint()`
+<br><br>
 
 <img src="images/16.png" width="900">
 <br><br>
