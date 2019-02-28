@@ -67,4 +67,9 @@ in example:
 <img src="images/11.png" width="500">
 
 
+## *Changing UI with LLDB* 
+- assign new text to label `p label.text = "changed label text"`
+- and refresh UI `p CATransaction.flush()`
+<img src="images/12.png" width="500">
+<br><br>
 
