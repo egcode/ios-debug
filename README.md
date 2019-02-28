@@ -5,7 +5,7 @@
 ## 1.Symbolic breakpoints
 
 
-### Symbolic breakpoint - all dealloc methods
+### Symbolic breakpoint - Hit breakpoint on any UIViewController deallocation
 
 `-[UIViewController dealloc]`
 <br><br>
@@ -22,7 +22,7 @@ When Symbolic breakpoint hits, we can use example arguments:
 - Symbolic fetch Swift
 `po (BOOL)[$arg1 isKindOfClass:(id)NSClassFromString(@"ModuleOrAppName.SomeViewController")]`
 
-To symbolic breakpoint CONTITION: (BOOL)[$arg1 isKindOfClass:(id)NSClassFromString(@"ModuleOrAppName.SomeViewController")]
+- Symbolic breakpoint CONTITION: `(BOOL)[$arg1 isKindOfClass:(id)NSClassFromString(@"ModuleOrAppName.SomeViewController")]`
 #### EXAMPLE: 
 <img src="images/0.Args.png" width="500">
 <img src="images/2.png" width="500">
