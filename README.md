@@ -91,7 +91,7 @@ When we have breakpoint in return value like this:
 - we can hit `finish` and it will step out of this method and execute return
 - then we get memory address of returned value by `register read $rax` (swift)
 - then we can extract what is stored in that location if we know the type by `po unsafeBitCast(0x0000600001acf1e0, to: UIImage.self)`
-- and we can creat expression and view the image extracted from memory
+- and we can create expression and view the image extracted from memory
 
 <img src="images/15.png" width="900">
 <br><br>
