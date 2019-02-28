@@ -43,12 +43,15 @@ When Symbolic breakpoint hits, we can use example arguments:
 <img src="images/5.png" width="500">
 <img src="images/6.png" width="500">
 
-`fr v` - don't do expressions, only shows data, and it's safe
+`fr v` - don't do expressions, only inspecting data, and it's safe but more limited
 <br><br>
 <img src="images/7.png" width="300">
 
 
 
+### Creating Global Session Variables: 
+
+<img src="images/8.png" width="300">
 
 
 
