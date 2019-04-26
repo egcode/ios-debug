@@ -94,6 +94,8 @@ or `expression -i false -- someMethodWithBreakpoint()`
 
 
 
+## *get swift singleton inside Objective-C*
+`expr -l swift -O -- import XPMobileSDK; DataManager.shared.pendingAlarmEvent`
 
 
 ## *2.Symbolic breakpoints*
