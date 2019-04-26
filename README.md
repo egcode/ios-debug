@@ -98,6 +98,9 @@ or `expression -i false -- someMethodWithBreakpoint()`
 `expr -l swift -O -- import XPMobileSDK; DataManager.shared.pendingAlarmEvent`
 
 
+
+--------------
+
 ## *2.Symbolic breakpoints*
 
 
